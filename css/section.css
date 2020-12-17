@@ -1,0 +1,1048 @@
+.about-us {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.about-us-title {
+    align-self: center;
+    width: 45%;
+}
+
+.about-us-title h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    position: relative;
+}
+
+ .about-us-title h3::after  {
+     content: "";
+    width: 17%;
+    height: 5px;
+    background: #E8C300;
+    position: absolute;
+    left: 41.5%;
+    bottom: 0;
+    margin-bottom: 3%;
+  }
+
+.about-us-title .bolder {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    color: #000000;
+
+}
+.about-us-title  p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    padding-bottom: 3%;
+    color: #000000;
+}
+
+
+.about-card  {
+    position: relative;
+}
+.about-card img {
+ width: 100%
+}
+ .about-img:after {
+     position: absolute;
+     content: "";
+     width: 50%;
+    height: 50%;
+    border: 20px solid #E8C300;
+    right: -15%;
+     bottom: 25%;
+    transition: .8s linear;
+}
+
+
+/*-------------about-us-carousel ----------------*/
+.about-us-carousel {
+    background-image: url(../img/header-bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.about-block {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.about-us-carousel-title {
+    align-self: center;
+    margin-left: auto;
+}
+
+.about-us-carousel-title h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    position: relative;
+}
+
+.about-us-carousel-title h3::after  {
+    content: "";
+   width: 17%;
+   height: 5px;
+   background: #E8C300;
+   position: absolute;
+   left: 41.5%;
+   bottom: 0;
+   margin-bottom: 3%;
+ }
+
+.about-us-carousel-titlee .bolder {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   color: #fff;
+
+}
+.about-us-carousel-title  p {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   padding-bottom: 3%;
+   color: #fff;
+}
+
+/*------------section masterchef--------------------------------------------------*/
+
+.masterchef-bg {
+    background-image: url(../img/special.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+
+}
+.masterchef {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+.masterchef-title {
+    align-self: center;
+    margin-left: auto;
+}
+
+.masterchef-title h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    position: relative;
+}
+
+.masterchef-title h3::after  {
+    content: "";
+   width: 17%;
+   height: 5px;
+   background: #E8C300;
+   position: absolute;
+   left: 41.5%;
+   bottom: 0;
+   margin-bottom: 3%;
+ }
+
+.masterchef-title .bolder {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   color: #fff;
+
+}
+.masterchef-title  p {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   padding-bottom: 3%;
+   color: #fff;
+}
+
+/*-----------book-table---------------------------------------------*/
+
+.book-table {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5%;
+}
+.book-table-title {
+    width: 45%;
+}
+.book-table-title h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000;
+
+    position: relative;
+}
+
+.book-table-title h3::after  {
+   content: "";
+   width: 17%;
+   height: 5px;
+   background: #E8C300;
+   position: absolute;
+   left: 41.5%;
+   bottom: 0;
+   margin-bottom: 3%;
+ }
+
+.book-table-img{
+     position: relative;
+
+ }
+ .book-table-img img {
+      width: 100%;
+ }
+
+ .book-table-img:after {
+     position: absolute;
+     content: "";
+     width: 50%;
+     height: 50%;
+     border: 20px solid #E8C300;
+     right: -15%;
+     bottom: 25%;
+    transition: .8s linear;
+ }
+
+
+.booke-tabel form {
+
+    width: 88%;
+    margin: auto;
+
+}
+
+.booke-tabel form  label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 33.33%;
+}
+.book-table-title input{
+    width: 230px;
+    height: 4em;
+    padding: 10%;
+    background: #E5E5E5;
+    border-radius: 5px;
+    padding-bottom: 3%;
+}
+.book-table-title input:hover{
+    background: #dbce89;
+
+}
+
+.book-table-title form button {
+    width: 67.5%;
+    height: 60px;
+    background: #E8C300;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.book-table-title form button:hover {
+    background: #ffde00;
+    transition: .3s linear;
+}
+.book-table-title form button a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: 1.2em;
+    color: #FFFFFF;
+}
+
+
+/*------------section-slider-----------------------------------------------*/
+
+.specialities-bg{
+    background-image: url(../img/sp-bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+
+}
+.specialities-page{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+
+.specialities-title {
+    align-self: center;
+    margin-left: auto;
+}
+
+.specialities-title h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    position: relative;
+}
+
+.specialities-title h3::after  {
+    content: "";
+   width: 17%;
+   height: 5px;
+   background: #E8C300;
+   position: absolute;
+   left: 41.5%;
+   bottom: 0;
+   margin-bottom: 3%;
+ }
+
+.specialities-title .bolder {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   color: #fff;
+
+}
+.specialities-title  p {
+   font-family: Open Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.1em;
+   line-height: 1.8em;
+   padding-bottom: 3%;
+   color: #fff;
+}
+
+
+/*-------------dws-wrapper-----------*/
+.dws {
+    display: none;
+}
+.dws{
+    width: 100%;
+    height: 100%;
+}
+.dws-wrapper {
+
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.dws-wrapper ul.accordion {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 0;
+        height: 100%;
+}
+
+.dws-wrapper ul.accordion li {
+    width: 50px;
+    height: 350px;
+    overflow: hidden;
+    padding: 1px 1px 0;
+    cursor: pointer;
+    display: block;
+    box-shadow: 1px 3px 15px #7e807e;
+    transition: all .5s;
+}
+
+.dws-wrapper ul.accordion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dws-wrapper ul.accordion li:hover{
+    width: 300px;
+    box-shadow: 1px 3px 15px #ffc107;
+    transition: all 1s;
+}
+
+.dws-wrapper ul.accordion li:nth-child(4) {
+    width: 300px;
+}
+
+.dws-wrapper ul.accordion:hover li:nth-child(4) {
+    width: 50px;
+}
+.dws-wrapper ul.accordion li:nth-child(4):hover {
+     width: 300px;
+ }
+
+/*--------------section menu------------------------------------------------------*/
+.section-menu {
+    width: 100%;
+
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+.menu-header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu-title {
+    margin-bottom: 2%;
+}
+
+.menu-header h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+     margin-bottom: 3%;
+    color: #000;
+
+    position: relative;
+}
+
+.menu-header h3::after  {
+   content: "";
+   width: 17%;
+   height: 5px;
+   background: #E8C300;
+   position: absolute;
+   left: 41.5%;
+  bottom: -11%;
+   margin-bottom: 3%;
+ }
+
+.menu-header  p {
+    width: 80%;
+    margin: auto;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 1.1em;
+     line-height: 1.8em;
+     padding-bottom: 3%;
+     color: #000000;
+ }
+/*--------accordion----------------------------------------------------------*/
+
+
+.block-acordion {
+    position: relative;
+
+}
+.block-acordion input {
+    display: none;
+
+}
+.block-acordion label{
+    margin: 0 ;
+    font-family: 'Joti One', cursive;
+    display: inline-block;
+    cursor: pointer;
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    padding: 1% 5% 1% 5%;
+    transition: .3s linear;
+    margin-bottom: 2%;
+}
+.block-acordion label:first-child{
+    border: none;
+}
+.block-acordion label:last-child{
+    border: none;
+}
+
+.block-acordion label:hover{
+    color: #E8C300;
+    transition: .3s linear;
+    border-color: #E8C300;
+}
+
+.section-menu section {
+    width: 100%;
+    margin: 5% auto;
+    display: none;
+}
+
+.block-menu{
+    display: flex;
+    justify-content: center;
+}
+.block-menu .menu-left {
+    margin-right: 10%;
+}
+
+
+.block-menu li{
+    font-family: 'Joti One', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.1em;
+    margin-bottom: 5%;
+}
+.block-menu ul  span{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 1em;
+    color: rgba(51, 51, 51, 0.5);
+
+        margin-right: 18%;
+}
+
+#contentSOUPE:checked ~ #contentSOUPE, #contentPIZZA:checked ~ #contentPIZZA,
+ #contentPASTA:checked ~ #contentPASTA, #contentDESERT:checked ~ #contentDESERT,
+  #contentWINE:checked ~ #contentWINE, #contentBEER:checked ~ #contentBEER,
+   #contentDRINKS:checked ~ #contentDRINKS{
+    display: block;
+}
+
+/*------private-events------------------------------------------------------*/
+
+.private-events-bg {
+    background-image: url(../img/sp-bg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.private-events {
+    width: 88.88%;
+    margin: auto;
+    display: flex;
+}
+.private-events-bg h4{
+
+    width: 20%;
+    margin: 2% auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: .9em
+
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding-top: 1%;
+    color: #FFFFFF;
+}
+.private-events-bg h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .7em;
+    line-height: .7em;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+}
+
+.events-left {
+    width: 45%;
+    margin: 2% 5% 5% 0;
+}
+.events-left .card {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+}
+.events-left .card h3 {
+    position: absolute;
+    right: -50%;
+    bottom: 50%;
+    transform: rotate(90deg);
+
+
+    width: 94%;
+    text-align: left;
+
+    font-family: Joti One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 12px;
+    text-indent: 20px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.events-left .events-img{
+    position: relative;
+
+}
+.events-left .events-img:after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 40%;
+    border: 20px solid #E8C300;
+    top: 25%;
+    right: 70%;
+    transition: .8s linear;
+}
+
+
+.events-right {
+    width: 45%;
+    margin: 2% 0 5% 10%;
+}
+
+.events-right .card {
+    position: relative;
+}
+.events-right .card h3 {
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    transform: rotate(270deg);
+
+
+    width: 94%;
+    text-align: left;
+
+    font-family: Joti One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 12px;
+    text-indent: 20px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.events-right .events-img{
+    position: relative;
+
+}
+.events-right .events-img:after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 40%;
+    border: 20px solid #E8C300;
+    top: 25%;
+    right: 70%;
+    transition: .8s linear;
+}
+
+.events-img:hover:after{
+    display: none;
+}
+
+.events-img{
+    position: relative;
+    transition: .8s linear;
+}
+
+.events-img:hover img {
+    transform: rotateY(180deg);
+    transition: .8s linear;
+}
+
+.events-img:hover .description{
+    transform: rotateY(360deg);
+    transition: .8s linear;
+}
+
+.description {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: .8s linear;
+    padding: 1em;
+    transform: rotateY(180deg);
+    color: #fff;
+    background-color: #717171;
+
+}
+
+.description p {
+     width: 60%;
+     margin:10% auto 5%;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 1.1em;
+     line-height: 1.8em;
+     padding-bottom: 3%;
+     color: #000;
+ }
+
+ .description button {
+     width: 20em;
+     height: 60px;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: bold;
+     font-size: .75em;
+     line-height: 1.1em;
+     letter-spacing: 3px;
+     background: transparent;
+     border-radius: 2%;
+     border-color: #FFFFFF;
+     color: #FFFFFF;
+     text-transform: uppercase;
+     margin-right: 2em;
+     margin-left: 2em;
+     transition: .3s linear;
+     cursor: pointer;
+ }
+
+.description  button:hover {
+   background: #E8C300;
+   transition: .3s linear;
+   transform: scale(1.1);
+   border: none;
+ }
+
+
+
+/*--------gallery-----------------------------------------------------------*/
+
+.gallery {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.gallery-grid {
+    width: 88.88%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3%;
+    grid-auto-flow: dense;
+}
+
+.gallery-grid img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 3px -1px 8px 1px rgba(0,0,0,0.75);
+     transition: .3s linear;
+}
+.image:first-child {
+    grid-column-start:  span 2;
+    grid-row-start:  span 2;
+}
+
+.image:nth-child(2n+1) {
+    grid-row-start: span 2;
+}
+.image:nth-child(4n+3) {
+    grid-column-start:  span 2;
+    grid-row-start:  span 1;
+}
+
+.image:hover {
+    transform: scale(1.05);
+     transition: .3s linear;
+}
+
+
+
+/*-----------contacts---------------------------------------------------------*/
+
+.contacts {
+    width: 100%;
+    margin: 25% auto 0;
+    text-align: center;
+}
+
+
+.contacts-title  h3 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    line-height: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1%;
+    color: #000;
+
+    position: relative;
+}
+
+.contacts-title  h3::after  {
+   content: "";
+   width: 17%;
+   height: 5px;
+   background: #E8C300;
+   position: absolute;
+   left: 41.5%;
+   bottom: -11%;
+   margin-bottom: 3%;
+ }
+
+.contacts-title  p {
+     width: 80%;
+     margin: auto;
+     font-family: Open Sans;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 1.1em;
+     line-height: 1.8em;
+     padding-bottom: 3%;
+     color: #000000;
+ }
+
+.contacts form {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.contacts form .icons{
+
+}
+.contacts form input{
+    width: 350px;
+    height: 4em;
+    padding: 10%;
+    background: #E5E5E5;
+    border-radius: 5px;
+    padding-bottom: 3%;
+}
+.contacts form input:last-child {
+    width: 100%;
+}
+.contacts form input:hover{
+    background: #dbce89;
+
+}
+
+.contacts form input textarea{
+    width: 100%;
+}
+
+/*-------------------------------------form---------------------------*/
+
+.book-table-title input{
+    width: 250px;
+    height: 4em;
+    padding: 10%;
+    background: #E5E5E5;
+    border-radius: 5px;
+    padding-bottom: 3%;
+}
+
+
+.book-table-title form button {
+    width: 505px;
+    height: 60px;
+    background: #E8C300;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.book-table-title form button:hover {
+    background: #ffde00;
+    transition: .3s linear;
+}
+.book-table-title form button a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .8em;
+    line-height: 1.2em;
+    color: #FFFFFF;
+}
+/*-------------------------------------------------form---*/
+.contacts form  button {
+    width: 20em;
+    height: 60px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .75em;
+    line-height: 1.1em;
+    letter-spacing: 3px;
+    background: #E8C300;
+    border-radius: 2%;
+    border-color: #FFFFFF;
+    color: #000;
+    text-transform: uppercase;
+    margin-right: 2em;
+    margin-left: 2em;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.contacts form   button:hover {
+  background: #FFFFFF;
+  transition: .3s linear;
+  transform: scale(1.1);
+  border-color:  #000;
+}
+.contacts .icons {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts span {
+
+}
+
+/*--------map------------------------------------------------------------------*/
+
+.map-wrapp {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-wrapp iframe {
+    width:100%;
+    height:40vh;
+}
+
+.map-wrapp .fas {
+    justify-content: center;
+    color: #E8C300;
+    font-size: 3em;
+    animation: upp 1s linear infinite;
+}
+
+@keyframes upp {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/*---------footer---------------------------------------------------------------*/
+.footer {
+    width: 100%;
+    margin: auto;
+
+    background: rgba(0, 0, 0, 0.9);
+    margin-top: auto;
+
+
+    text-align: center;
+}
+
+.footer span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7em;
+    line-height: 0.7em;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1em;
+}
+
+.footer .socials {
+    margin-top: 1%;
+}
+
+.footer .socials .fab {
+    padding-bottom: 2%;
+    font-size: 2em;
+    padding-left: 1em;
+    color: #E8C300;
+    transition: .3s linear;
+}
+.footer .socials .fab:first-child {
+    padding-left: 0;
+}
+
+.footer .socials .fab:hover {
+    color:#fff;
+    transform: scale(1.3);
+    transition: .3s linear;
+}
